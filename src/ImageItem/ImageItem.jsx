@@ -19,6 +19,7 @@ export const ImageItem = ({ image, onDelete, onRename, onToggleSelect }) => {
     <div className={styles.card}>
       <input
         type="checkbox"
+        className={styles.customCheckbox}
         checked={image.isSelected}
         onChange={() => onToggleSelect(image.id)}
       />
