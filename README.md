@@ -1,16 +1,34 @@
-# React + Vite
+# Local Image Upload & Metadata Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic React-based dashboard application designed to manage images locally. This project focuses on efficient file handling, real-time state management, and a clean, responsive user interface.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
+Experience the application live here:
+react-media-manager-omega.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Key Features
 
-## React Compiler
+*   **Multi-Image Upload:** Support for drag-and-drop or manual selection for uploading multiple images simultaneously.
+*   **Metadata Display:** Automatically extracts and displays file type and size (in KB) for each uploaded image.
+*   **Real-time Management:**
+    *   **Rename:** Easily edit image names directly on the gallery cards.
+    *   **Delete:** Remove individual images with a single click.
+    *   **Bulk Delete:** Select multiple images and remove them all at once.
+    *   **Clear All:** Quickly reset the gallery dashboard.
+*   **Responsive Design:** Fully optimized layout for mobile and desktop devices using CSS Modules.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+*   **Frontend:** React.js
+*   **Build Tool:** Vite
+*   **Styling:** CSS Modules
+*   **State Management:** React Hooks (`useState`, `useRef`)
+*   **Utilities:** Native File API (`URL.createObjectURL`), Array manipulation (`map`, `filter`)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 Installation (Local Development)
+
+If you would like to run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/severabdullayeva/react-media-manager.git
