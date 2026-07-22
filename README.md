@@ -4,7 +4,7 @@ A dynamic React-based dashboard application designed to manage images locally. T
 
 ## 🔗 Live Demo
 Experience the application live here:
-react-media-manager-omega.vercel.app
+https://react-media-manager-omega.vercel.app/
 
 ## 🚀 Key Features
 
